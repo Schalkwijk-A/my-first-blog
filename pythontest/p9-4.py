@@ -12,7 +12,7 @@ np.random.seed(19680801)
 # histogram our data with numpy
 
 data = np.random.randn(1000)
-n, bins = np.histogram(data, 100)
+n, bins = np.histogram(data, 100)#値を５０から１００に変えてグラフを出力
 
 # get the corners of the rectangles for the histogram
 left = np.array(bins[:-1])
